@@ -120,6 +120,6 @@ public class MainActivity extends AppCompatActivity {
             loadWeatherData();
             return true;
         }
-        return false;
+        return super.onOptionsItemSelected(item);
     }
 }
